@@ -1,6 +1,7 @@
 import React from 'react'
 
 function Footer() {
+  
   return (
    <div>
   {/* Remove the container if you want to extend the Footer to full width. */}

@@ -16,20 +16,31 @@ function Header() {
             <div className="w-1200">
                 {/* top start */}
                 <div className="row bg-primary text-white py-3 mx-auto">
-                    <div className="col-lg-3">
-                        <FaHome /> +977 9807654321
+                    <div className="col-lg-6">
+                        
+                        <ul className='d-flex gap-2'>
+                            <li><FaHome /> +977 9807654321 |</li>
+                            <li><MdEmail />charbi@gmail.com |</li>
+                            <li><FaClock /> Mon-Sat open 9am-5pm</li>
+                            </ul>
                     </div>
-                    <div className="col-lg-3">
+                    {/* <div className="col-lg-3">
                         <MdEmail />charbi@gmail.com
                     </div>
                     <div className="col-lg-3">
                         <FaClock /> Mon-Sat open 9am-5pm
-                    </div>
-                    <div className="col-lg-3 d-flex gap-2 ">
-                        <TiSocialFacebookCircular />
-                        <FaSquareInstagram />
-                        <FaTwitter />
-                        <FaLinkedin />
+                    </div> */}
+                    <div className="col-lg-3  offset-3 ">
+                        <ul className='d-flex gap-3'>
+                            <li className='text-3xl'>  <TiSocialFacebookCircular /></li>
+                            <li><FaSquareInstagram /></li>
+                            <li><FaTwitter /></li>
+                            <li> <FaLinkedin /></li>
+                        </ul>
+                      
+                        
+                        
+                       
 
                     </div>
                 </div>
@@ -38,7 +49,7 @@ function Header() {
                 {/* navbar start */}
                 <div className="row p-2 bg-light-subtitle ">
                     <div className="col-lg ">
-                        <img className="w-30" src="https://wphtml.com/html/tf/chorbi/assets/img/logo.png" alt="" />
+                       <Link to="/"> <img className="w1" src="https://wphtml.com/html/tf/chorbi/assets/img/logo.png" alt="" /></Link>
                     </div>
                     <div className="col-lg-7 offset-2 d-flex gap-5">
 

@@ -99,3 +99,10 @@ background-image: linear-gradient(black,white),url('https://wphtml.com/html/tf/c
   padding: 20px;
   text-align: center;
 }
+.w1{
+  width:85px;
+}
+.cir{
+  width:65px;
+  height:53px;
+}

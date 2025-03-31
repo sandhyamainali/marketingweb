@@ -90,11 +90,11 @@ function Home() {
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam magni odit fuga omnis sunt perspiciatis quas eos provident, ducimus voluptatum.
               At ut voluptates porro fuga labore? Delectus quo tenetur minima?</p>
             <div className='d-flex py-3'>
-              <div className='bg-primary rounded-circle fs-2 text-center d-flex w-90'>
-              <div><IoCall className=' text-white fs-2'/></div>
+              <div className='bg-primary rounded-circle fs-2 text-center d-flex cir'>
+              <div><IoCall className=' text-white fs-2 mx-3'/></div>
               </div>
               <div className='px-3'>
-                <span>+9779876543210</span>
+                <span className='fw-bold'>+9779876543210</span>
               </div>
             </div>
           </div>
